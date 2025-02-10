@@ -1,0 +1,223 @@
+@import url(setting.css);
+
+/* header */
+
+@import url(header.css);
+
+/*footer*/
+@import url(footer.css);
+
+/*scroll to top button*/
+@import url(scrolltop.css);
+
+
+/*top head section */
+@import url(top-header.css);
+/*about section*/
+.about p{
+    padding-top: 30px ;
+    padding-right: 50px;
+    color: #141414;
+
+}
+ .using span{
+    color: #E16463;
+    font-weight: 500;
+    font-weight: bold;
+}
+/* using section*/
+
+.using , .pr-cards{
+    padding: 20px 50px;
+}
+.using h2, .pr-cards h2, .category h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    color: #141414;
+
+}
+.using p{
+    padding-top: 10px;
+    font-weight: 400;
+    color: #141414;
+    line-height: 1.8rem;
+
+}
+.using ul{
+    padding: 0 20px;
+    
+}
+.using ul li{
+    padding: 5px 0;
+    font-weight: 400;
+    color: #141414;
+}
+/*product cards*/
+/* .pr-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.pr-card img{
+    width: 15%;
+    height: 15%;
+} */
+
+
+
+/*cards*/
+.category{
+    align-items: center;
+    padding: 50px;
+}
+
+.cards{
+    padding: 20px 0;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+.card{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    width: 95%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card:hover img{
+    transform: scale(1.05);
+}
+
+.pr-card-text{
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+}
+
+.pr-card-text h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #E16463;
+    padding-bottom: 5px;
+}
+.pr-card-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #E16463;
+}
+.pr-card-text a {
+    text-decoration: underline;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #e71255;
+    transition: all 0.3s ease;
+}
+.pr-card-text span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #E16463;
+}
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 18px;
+    padding-bottom: 10px;
+    color: #E16463;
+  }
+  .content{
+    color: #E16463;
+    width: 100%;
+
+  }
+  .popup .close {
+    position: absolute;
+    top: 3px;
+    right: 22px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #E16463;
+  }
+  .popup .close:hover {
+    color: #000000;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  .content ul
+    {
+        padding: 0 10px;
+    }
+    .content ul li{
+        padding-top: 3px;
+        font-weight: 400;
+        color: #E16463;
+    }
+    .content p{
+        margin: 10px 0;
+        font-weight: 400;
+        color: #E16463;
+    }
+
+    @media screen and (max-width: 700px){
+        .box{
+          width: 70%;
+        }
+        .popup{
+          width: 70%;
+        }
+      }

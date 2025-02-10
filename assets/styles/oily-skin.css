@@ -1,0 +1,78 @@
+@import url(setting.css);
+
+/* header */
+
+@import url(header.css);
+
+/*footer*/
+@import url(footer.css);
+
+/*scroll to top button*/
+@import url(scrolltop.css);
+
+
+/*top head section */
+@import url(top-header.css);
+
+
+
+/*cards*/
+.category{
+  align-items: center;
+  padding: 50px;
+
+
+}
+.category h2{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  color: #141414;
+  margin-bottom: 50px;
+}
+.cards{
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+  width: 50%;
+}
+.card{
+  margin: 10px;
+  border-radius: 10px;
+  width: 95%;
+  height: 430px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  /* make text in center of card*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card p{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 10px;
+}
+#clean{
+  background: linear-gradient(rgb(225,100,99,0.4), rgb(225,100,99,0.4)), url(/assets/images/15.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#mosturize{
+  background: linear-gradient(rgb(225,100,99,0.4), rgb(225,100,99,0.4)), url(/assets/images/16.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+

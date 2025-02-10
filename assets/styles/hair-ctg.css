@@ -1,0 +1,123 @@
+@import url(setting.css);
+
+/* header */
+
+@import url(header.css);
+
+/*footer*/
+@import url(footer.css);
+
+/*scroll to top button*/
+@import url(scrolltop.css);
+
+
+/*top head section */
+@import url(top-header.css);
+
+
+/*categories section*/
+.category{
+    margin: 50px 0;
+    padding: 20px 0;
+}
+.category h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #141414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-circle{
+    text-align:center;
+     margin-top:50px;
+     background:#E16463;    
+     border:10px solid transparent;
+     padding:50px;
+     border-radius:50%;
+}
+ .card-circle .card-title{
+    font-weight:500;
+     font-size:1.3rem;
+    padding: 10px 0;
+    color: #fff;
+}
+ .card-circle .card-text{
+    font-size:1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #fff6f6;
+}
+
+ .card-circle:nth-child(2){
+    background:#cf5a5a;
+}
+ .card-circle .btn{
+    background:transparent;
+     border:1px solid #fff;
+     padding:5px 30px;    
+     border-radius:20px;
+     Font-weight:400;
+     color:#fff;
+}
+.card-circle .btn,.card-circle .card-icon i,.card-circle{
+   transition: all ease-in-out 0.2s;
+}
+ .card-circle:hover .btn{
+    background:#F4C4C3;
+     color:#fff;
+   border: 1px solid transparent;
+}
+
+ .card-circle:hover{
+    border:10px solid #F4C4C3;
+    transform: scale(1.3) !important;
+
+}
+
+ @media only screen and (min-width: 1200px) {
+     .card-circle:nth-child(3){
+         margin-left:-40px;
+         z-index:0;
+    }
+     .card-circle{
+         width:320px;
+         height:320px;
+    }
+     .card-circle:nth-child(2){
+         margin-left:-20px;
+         box-shadow: 1px 2px 20px 8px rgba(241, 235, 235, 0.12);
+         transform: scale(1.2);
+         z-index:1;
+    }
+   .card-circle .card-icon i{
+      margin-top: 20px;
+     }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+   .card-circle{
+         width:320px;
+         height:320px;
+    }
+  .card-circle .card-icon i{
+     font-size:50px;
+   }
+  .card-circle .card-icon i{
+      margin-top: -25px;
+     }
+   .card-circle:nth-child(3){
+         margin-left:-50px;
+         z-index:0;
+    }
+   .card-circle:nth-child(2){
+         margin-left:-20px;
+         z-index:1;
+    }
+}
+
+

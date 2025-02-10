@@ -1,0 +1,24 @@
+.top-head{
+    padding: 20px 50px;
+    background-color: aqua;
+    height: 40vh;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background-attachment: fixed;
+
+    flex-direction: column;
+    background: linear-gradient(rgb(225,100,99,0.5), rgb(225,100,99,0.5)), url(/assets/images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 23%;
+    
+
+}
+.top-head p{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
