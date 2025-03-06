@@ -2,3 +2,10 @@
 [0219/174953.261:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
 [0219/174953.464:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
 [0220/143150.326:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0304/150424.142:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0306/144419.071:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0306/144424.111:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0306/144426.142:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0306/144426.372:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0306/144426.465:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0306/144426.488:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.

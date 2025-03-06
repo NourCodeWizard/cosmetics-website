@@ -1,13 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/images/Icon.png">
+    <title>الصفحة الرئيسية - زهرة</title>
 </head>
 
 <body>
+    <!-- make header with logo and nav bar -->
+    <header class="header">
+        <div class="header-logo">
+            <a href="/index.html"><img src="/assets/images/Icon.png" alt="logo"></a>
+            <a href="/index.html">زهرة</a>
+        </div>
+        <nav class="navigation">
+            <ul class="navigation-bar">
+                <li><a href="/index.html">الرئيسية</a></li>
+                <li><a href="/assets/pages/skin-ctg.html">عناية البشرة</a></li>
+                <li><a href="/assets/pages/hair-ctg.html">عناية الشعر</a></li>
+                <li><a href="/assets/pages/body-ctg.html">عناية الجسم</a></li>
+                <li><a href="/assets/pages/baby-ctg.html">طفلك </a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <a id="scroll-btn" href="https://www.michaelburrows.xyz/scroll-to-top-button-javascript/">scroll to top button</a>
+
+    <!-- make main section with image and text -->
+    <section class="hero">
+
+        <div class="hero-image">
+            <img src="/assets/images/1.png" alt="امرأة بتاج من الزهور">
+        </div>
+
+        <div class="hero-content">
+            <span class="subtitle">لبشرة أفضل</span>
+            <h1>تعرفي أكثر على المنتجات الآمنة لكي و لطفلك</h1>
+            <a href="#ctg" class="btn">إكتشفي المزيد</a>
+        </div>
+    </section>
+
+
+
+    <!-- <section class="pr-cards">
+                <h2> الانواع اللتي  تلائم جميع انواع البشرة </h2>
+                <div class="pr-card">
+                    <img src="/assets/images/8.jpg" alt="sunscreen">
+                    <div class="pr-card-text">
+                        <h3>واقي الشمس SPF 50</h3>
+                        <p>واقي الشمس الذي يحمي بشرتك من الأشعة الضارة و يحافظ على بشرتك نضرة و صحية</p>
+                        <a href="#" class="btn">اشتري الآن</a>
+                    </div>
+                </div>
+            </section> -->
+
+    <section class="category" id="ctg">
+        <h2>أقسام المنتجات</h2>
+        <div class="cards">
+            <a href="/assets/pages/hair-ctg.html" class="card" id="hair">
+
+                <img src="/assets/images/3.png">
+
+
+                <div class="overlay"></div>
+                <span class="category-text">عناية الشعر</span>
+            </a>
+
+            <!--card2-->
+            <a href="/assets/pages/skin-ctg.html" class="card" id="skin">
+
+                <img src="/assets/images/2.png">
+
+
+
+                <div class="overlay"></div>
+                <span class="category-text">عناية البشرة</span>
+            </a>
+
+            <!--card3-->
+            <a href="/assets/pages/body-ctg.html" class="card" id="body">
+
+                <img src="/assets/images/4.png">
+
+
+
+                <div class="overlay"></div>
+                <span class="category-text">عناية الجسم</span>
+            </a>
+
+            <!--card4-->
+            <a href="/assets/pages/baby-ctg.html" class="card" id="skin">
+
+                <img src="/assets/images/5.png">
+
+
+
+                <div class="overlay"></div>
+                <span class="category-text">طفلك</span>
+            </a>
+
+    </section>
+
+
+
+
+    <!-- make footer with logo and paragraph and line and copy write -->
+    <footer>
+        <div class="footer-logo">
+            <img src="/assets/images/footer Icon.png" alt="logo">
+            <a href="index.html">زهرة</a>
+        </div>
+        <p class="footer-desc">زهرة فريق من الخبراء المتخصصين لتوعية كل أم<br> حول المنتجات الآمنة لها ولطفلها.</p>
+        <hr class="divider">
+        <p id="cpywrite">جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 
