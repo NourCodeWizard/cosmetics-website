@@ -11,6 +11,40 @@
 /*scroll to top button*/
 
 @import url(assets/styles/scrolltop.css);
+.website-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    height: 100vh;
+}
+
+
+/* Styles for website counter container */
+
+.tt-count {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.website-counter {
+    background-color: #E16463;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
 
 /*top head section */
 
